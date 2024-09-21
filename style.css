@@ -1,0 +1,38 @@
+.container{
+    margin: auto;
+    width: 700px;
+    padding-left: 17px;
+    background: linear-gradient(rgb(58, 243, 58),aqua,gray);
+    padding-bottom: 13px;
+}h1{
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}input{
+    font-size: 19px;
+    width: 350px;
+    margin-left: 15px;
+    background-color: gray;
+    color: bisque;
+}input::placeholder{
+    font-size: 17px;
+    color: #dbd7d7;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);;
+}#btn{
+    font-size: 20px;
+    width: 150px;
+    border: 2px solid black;
+    margin-left: 250px;
+    margin-top: -23px;
+}#btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}#message{
+    color: rgb(190, 24, 185);
+}#h1{
+    font-size: 19px;
+    color: orange;
+}#h1 span{
+    color: rgb(77, 75, 75);
+}

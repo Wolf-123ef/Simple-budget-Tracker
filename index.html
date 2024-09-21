@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Budget Tracker</h1>
+        <label for="addIncome">Income(Salary):</label>
+        <input type="number" id="addIncome" placeholder="Enter your income here"/><br><br>
+        <label for="Livingexpense">Living Expense:</label>
+        <input type="number" id="Livingexpense" placeholder="Enter your living expenses here"/>
+        <br><br><label for="taxes">Taxes:</label>
+        <input type="text" id="taxes" placeholder="Enter your tax amount here"/><br><br>
+        <label for="income">Income(Investments):</label>
+        <input type="text" id="income" placeholder="Enter your income from Investments here"/>
+        <br><br><label for="loans">Loans:</label>
+        <input type="text" id="loans" placeholder="Enter your loans amount here"/><br><br>
+        <label for="paymentofloans">Payment amount of loans:</label>
+        <input type="text" id="paymentofloans" placeholder="Enter the amount here"/>
+        <p id="message">The payment amount will include the base amount and interest with the rate of 14%</p>
+        <br><br><button id="btn">Calculate</button>
+        <p id="h1"></p>
+        <span id="error"></span>
+        <h3 id="Balance"></h3>
+    </div>
+</body>
+<script src="script.js">
+</script>
+</html>
